@@ -1,0 +1,10 @@
+---
+applications:
+  - name: sonic-gocd-dashboard
+    buildpacks:
+     - https://github.com/cloudfoundry/nodejs-buildpack	
+    memory: 1G
+    disk_quota: 512M
+    instances: 1
+    command: "npm install --only=dev && npm install && npm start"
+    stack: cflinuxfs3   

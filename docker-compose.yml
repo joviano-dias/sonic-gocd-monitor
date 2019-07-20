@@ -1,0 +1,13 @@
+code:
+  image: "te-docker.docker-registry.tools.springer-sbm.com/fig-env-java8-node-ruby-python"
+  volumes:
+    - "..:/home/dev/code"
+    - "$HOME/.npm:/home/dev/.npm"
+    - "$HOME/.ssh:/home/dev/.ssh"
+
+deploy:
+  image: "te-docker.docker-registry.tools.springer-sbm.com/fig-env-deploy-to-cf"
+  volumes:
+    - "..:/home/dev/code"
+    - "$HOME/.npm:/home/dev/.npm"
+    - "$HOME/.ssh:/home/dev/.ssh"

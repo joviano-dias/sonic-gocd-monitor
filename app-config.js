@@ -12,7 +12,7 @@ var config = {
     // Key for https
     httpsKeyPath: process.env.gocdmonitor_key_path || './server/cert/server.key',
     // Url for your go server
-    goServerUrl: process.env.gocdmonitor_gocd_host || 'http://02.gocd.tools.engineering',
+    goServerUrl: process.env.gocdmonitor_gocd_host || 'http://ci-gocd.example.com',
     // Go user to use for communication with go server
     goUser: process.env.gocdmonitor_gocd_user || '',
     // Password for go user

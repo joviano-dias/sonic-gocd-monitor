@@ -1,5 +1,5 @@
 {
-  "name": "gocd-monitor",
+  "name": "sonic-gocd-monitor",
   "version": "0.0.1",
   "private": true,
   "scripts": {

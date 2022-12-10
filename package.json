@@ -21,7 +21,7 @@
     "chart.js": "^2.8.0",
     "copyfiles": "^2.1.0",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "flexboxgrid": "^6.3.1",
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
